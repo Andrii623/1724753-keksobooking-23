@@ -8,6 +8,7 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
+
 const fruits = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10'];
 
 fruits.forEach((value, index, array) => {
@@ -61,5 +62,4 @@ const similarWizards = new Array(accound).fill(null).map(() => offer);
 console.log(similarWizards);
 
 console.log ("img/avatars/user"+ number +".png")
-
 
